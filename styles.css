@@ -1,0 +1,60 @@
+html, body {
+    background-image: url('retro-city-scape-night-time.gif');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+
+#text{
+    background-color: rgb(58, 231, 5);
+    border: 3px solid hotpink;
+    font-family: inherit;
+    padding: 1px 6px;
+    display: block;
+    overflow: hidden;
+    resize: vertical;
+    min-height: 24px;
+    line-height: 28px;
+    max-height: 200px;
+    text-align: justify;
+    font-size: 24px;
+    color: hotpink;
+}
+  
+#text[contenteditable]:empty::before{
+    content: "Enter text here ...";
+    color: hotpink;
+    font-size: 24px;
+}
+
+li {
+    font-size: 24px;
+    color: rgb(58, 231, 5);
+    list-style: numbers;
+    word-break: break-word;
+}
+
+#add {
+    background-color: rgb(58, 231, 5);
+    color: hotpink;
+    font-size: 24px;
+    float: right;
+}
+
+#remove {
+    background-color: rgb(58, 231, 5);
+    font-size: 24px;
+    color: hotpink;
+    float: right;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 5px;
+}
+
+h1 {
+    color: rgb(58, 231, 5);;
+}
+
+h2 {
+  color: hotpink;
+}
